@@ -3,7 +3,7 @@ This program is a image manipulation program.
 - Open button will open a file chooser that only allows the user to choose an image file.
 - Save button allows the user to save the photo with a specified picture extension of png, jpg, gif, and tiff.
       - There are two other files types. The msoe format which is a text based file.
-      - Which lookes like this
+     - Which lookes like this:
       
       - MSOE                    //File type
       - 3 3                     //Width and Height
@@ -11,7 +11,7 @@ This program is a image manipulation program.
       - #FFFFFF #FFFFFF #FFFFFF // Color for the second row of pixels.
       - #000000 #FFFFFF #000000 // Color for the third row of pixels.
       
-     - The bmsoe is also a texted based file but is in bytes.
+     - The bmsoe is also a texted based file but is in bytes, and looks like this:
       - BMSOE  À  à   // File type, width and height in bytes.
       - // Then special characters for the color of the pixel in bytes.
       

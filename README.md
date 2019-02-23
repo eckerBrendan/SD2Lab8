@@ -11,7 +11,7 @@ This program is a image manipulation program.
       - #FFFFFF #FFFFFF #FFFFFF // Color for the second row of pixels.
       - #000000 #FFFFFF #000000 // Color for the third row of pixels.
       
-      - The bmsoe is also a texted based file but is in bytes.
+     - The bmsoe is also a texted based file but is in bytes.
       - BMSOE  À  à   // File type, width and height in bytes.
       - // Then special characters for the color of the pixel in bytes.
       

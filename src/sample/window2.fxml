@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="170.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FilterKernel">
+    <children>
+        <Button onAction="#blur" layoutX="229.0" layoutY="18.0" prefHeight="25.0" prefWidth="60.0" text="Blur" />
+        <Button onAction="#sharpen" layoutX="229.0" layoutY="56.0" text="Sharpen" />
+        <Button onAction="#apply" layoutX="81.0" layoutY="130.0" prefHeight="25.0" prefWidth="144.0" text="Apply" />
+        <TextField fx:id="text1" layoutX="14.0" layoutY="18.0" prefHeight="25.0" prefWidth="60.0" text="0" />
+        <TextField fx:id="text2" layoutX="90.0" layoutY="18.0" prefHeight="25.0" prefWidth="60.0" text="0" />
+        <TextField fx:id="text3" layoutX="163.0" layoutY="18.0" prefHeight="25.0" prefWidth="60.0" text="0"/>
+        <TextField fx:id="text4" layoutX="14.0" layoutY="56.0" prefHeight="25.0" prefWidth="60.0" text="0" />
+        <TextField fx:id="text5" layoutX="90.0" layoutY="56.0" prefHeight="25.0" prefWidth="60.0"  text="0"/>
+        <TextField fx:id="text6" layoutX="163.0" layoutY="56.0" prefHeight="25.0" prefWidth="60.0" text="0"/>
+        <TextField fx:id="text7" layoutX="14.0" layoutY="93.0" prefHeight="25.0" prefWidth="60.0"  text="0"/>
+        <TextField fx:id="text8" layoutX="90.0" layoutY="93.0" prefHeight="25.0" prefWidth="60.0"  text="0"/>
+        <TextField fx:id="text9" layoutX="163.0" layoutY="93.0" prefHeight="25.0" prefWidth="60.0" text="0"/>
+    </children>
+</Pane>

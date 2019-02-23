@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="400" prefWidth="350" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <ImageView fx:id="image" fitHeight="350.0" fitWidth="252.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+        </ImageView>
+        <Button  layoutX="252.0" layoutY="14.0" mnemonicParsing="false" onAction="#openResponse" prefHeight="27.0" prefWidth="98.0" text="Open" />
+        <Button  layoutX="252.0" layoutY="47.0" mnemonicParsing="false" onAction="#saveResponse" prefHeight="27.0" prefWidth="98.0" text="Save" />
+        <Button  layoutX="252.0" layoutY="82.0" mnemonicParsing="false" onAction="#reloadResponse" prefHeight="27.0" prefWidth="98.0" text="Reload" />
+        <Button  layoutX="252.0" layoutY="117.0" mnemonicParsing="false" onAction="#greyScaleResponse" prefHeight="27.0" prefWidth="98.0" text="GrayScale" />
+        <Button  layoutX="252.0" layoutY="153.0" mnemonicParsing="false" onAction="#negativeResponse" prefHeight="27.0" prefWidth="98.0" text="Negative" />
+        <Button  layoutX="252.0" layoutY="187.0" onAction="#redResponse" prefHeight="27.0" prefWidth="98.0" text="Red" />
+        <Button  layoutX="252.0" layoutY="222.0" onAction="#greyRedResponse" prefHeight="27.0" prefWidth="98.0" text="Red-Gray" />
+        <Button fx:id="showFilter" layoutX="252.0" layoutY="257.0" onAction="#showFilter" prefHeight="27.0" prefWidth="98.0" text="Show Filter" />
+        <BorderPane layoutY="14.0" prefHeight="330.0" prefWidth="252.0" />
+    </children>
+</Pane>

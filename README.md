@@ -21,6 +21,6 @@ This program is a image manipulation program.
 - Negative button turn the image into the negative of this image, by going through each pixel and subtracting one by the red, one by the green, and one by the blue.
 - Red button turn the image into the red component of each pixel, by going through each pixel and setting the green, and blue to zero.
 - Red-Gray turns the odd rows of pixels of this image into Red and the even rows into grayscale, by using the calculation for each of the transformations.
-- Show Filter button opens a new window that allows the user to sharpen, blur or custom filter to the image. 
+- Show Filter button opens a new window that allows the user to sharpen and blur the image with the sharpen, blur, and apply buttons. 
 
-This program was first down in object oriented programming than converted into functional programming. All of the code that is commented out is the object oriented programming.
+This program was first donw in object oriented programming than converted into functional programming. All of the code that is commented out is the object oriented programming.

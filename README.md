@@ -12,8 +12,9 @@ This program is a image manipulation program.
       - #000000 #FFFFFF #000000 // Color for the third row of pixels.
       
      - The bmsoe is also a texted based file but is in bytes, and looks like this:
+     
       - BMSOE  À  à   // File type, width and height in bytes.
-      - // Then special characters for the color of the pixel in bytes.
+      - // Then special characters for the color of the pixel in bytes. Also in the same format as msoe as first row of pixel then second and so on. 
       
 - Reload button returns the shown image to the image that was first loaded.
 - GrayScale button turns the image into the grayscale of this image, by going through each pixel and calculating the grayscale for each pixel.

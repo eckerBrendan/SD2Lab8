@@ -4,6 +4,7 @@ This program is a image manipulation program.
 - Save button allows the user to save the photo with a specified picture extension of png, jpg, gif, and tiff.
       - There are two other files types. The msoe format which is a text based file.
       - Which lookes like this
+      
       - MSOE                    //File type
       - 3 3                     //Width and Height
       - #000000 #FFFFFF #000000 // Color for the first row of pixels.
